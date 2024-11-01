@@ -1,0 +1,23 @@
+.link {
+    display: block;
+    width: 100%;
+    padding: var(--gap) var(--gap);
+    margin: var(--gap) 0;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.link:hover {
+    background-color: var(--lightest-gray);
+}
+
+.date {
+    display: block;
+    color: gray;
+    border: none;
+}
+
+.title {
+    color: var(--fg);
+}

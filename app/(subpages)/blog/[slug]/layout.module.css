@@ -1,0 +1,18 @@
+.date {
+    color: var(--gray)
+}
+
+.tags {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: var(--gap-half);
+}
+
+.tag {
+    background-color: var(--lightest-gray);
+    color: var(--gray);
+    padding: var(--gap-quarter);
+    border-radius: 8px;
+    border: solid 1px var(--light-gray);
+}
